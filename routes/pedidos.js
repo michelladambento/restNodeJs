@@ -134,7 +134,7 @@ router.delete("/", (req, res, next) => {
 					mensagem: "Pedido removido com sucesso",
 					request: {
 						tipo: "POST",
-						descricao: "Insere um pedido",
+						descricao: "Insere a um pedido",
 						url: "http://michellbento-tk.umbler.net/pedidos",
 						body: {
 							quantidade: "Number",

@@ -91,7 +91,7 @@ router.get("/:id_produto", (req, res, next) => {
 						preco: result[0].preco,
 						request: {
 							tipo: "GET",
-							descricao: "Retorna todos os produtos",
+							descricao: "Retorna todos os produtos na aplicação",
 							url: "http://michellbento-tk.umbler.net/produtos",
 						},
 					},
